@@ -1,0 +1,104 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #ffd700;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+h2{
+    text-align: center;
+}
+
+.sideIMG{
+    margin-left: 40%;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20%;
+}
+
+.imgDIV{
+    display: flex;
+}
+header p {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #ff4500;
+}
+
+#favCandy {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+#logo {
+    width: 150px;
+    border-radius: 30%;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.quick-contact-form {
+    margin-top: 20px;
+}
+
+.quick-contact-form h3 {
+    color: #ffd700;
+}
+
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    .quick-contact-form form {
+        grid-template-columns: 1fr;
+    }
+
+}
